@@ -20,17 +20,17 @@ function App() {
         />
 
         <Route
-          path="/administrator"
+          path="/Administrator"
           element={<Administrator />}
         />
 
         <Route
-          path="/reader"
+          path="/Reader"
           element={<Reader />}
         />
 
         <Route
-          path="/publisher"
+          path="/Publisher"
           element={<Publisher />}
         />
 
