@@ -35,7 +35,7 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://127.0.0.1:5000/signup", formData);
+      const res = await axios.post("https://wms-wrnh.onrender.com/signup", formData);
 
       // SUCCESS MESSAGE
       setMessage(res.data.message);

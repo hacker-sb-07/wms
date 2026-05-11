@@ -63,7 +63,7 @@ function Reader() {
 
   const fetchBooks = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:5000/published-books");
+      const res = await axios.get("https://wms-wrnh.onrender.com/published-books");
 
       setBooks(res.data);
     } catch (error) {
@@ -77,7 +77,7 @@ function Reader() {
 
   const fetchSavedBooks = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:5000/saved-books");
+      const res = await axios.get("https://wms-wrnh.onrender.com/saved-books");
 
       setSavedBooks(res.data);
     } catch (error) {
@@ -107,7 +107,7 @@ function Reader() {
         return;
       }
 
-      await axios.post("http://127.0.0.1:5000/save-book", book);
+      await axios.post("https://wms-wrnh.onrender.com/save-book", book);
 
       fetchSavedBooks();
       setMessage("Book Saved Successfully");
@@ -128,7 +128,7 @@ function Reader() {
 
   const removeSavedBook = async (bookName) => {
     try {
-      await axios.delete(`http://127.0.0.1:5000/remove-saved/${bookName}`);
+      await axios.delete(`https://wms-wrnh.onrender.com/remove-saved/${bookName}`);
 
       fetchSavedBooks();
       setMessage("Saved Book Removed");
@@ -290,7 +290,7 @@ function Reader() {
   const downloadBook = async (book) => {
     try {
       // API CALL
-      await axios.get(`http://127.0.0.1:5000/download-book/${book.id}`);
+      await axios.get(`https://wms-wrnh.onrender.com/download-book/${book.id}`);
 
       // UPDATE DOWNLOADS
       const updatedDownloads = [...downloads, book];
@@ -880,7 +880,7 @@ function Reader() {
                       book.cover_image !== "null" &&
                       book.cover_image !== "" ? (
                         <img
-                          src={`http://127.0.0.1:5000/${book.cover_image}`}
+                          src={`https://wms-wrnh.onrender.com/${book.cover_image}`}
                           alt="Book Cover"
                           className="
       w-full

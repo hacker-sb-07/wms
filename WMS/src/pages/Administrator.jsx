@@ -61,7 +61,7 @@ function Administrator() {
 
   const fetchUsers = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:5000/users");
+      const res = await axios.get("https://wms-wrnh.onrender.com/users");
 
       setUsers(res.data);
     } catch (error) {
@@ -74,7 +74,7 @@ function Administrator() {
   // =========================================
   const fetchBooks = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:5000/books");
+      const res = await axios.get("https://wms-wrnh.onrender.com/books");
 
       const updatedBooks = res.data.map((book) => ({
         ...book,
@@ -110,7 +110,7 @@ function Administrator() {
 
   const deleteUser = async (email) => {
     try {
-      await axios.delete(`http://127.0.0.1:5000/delete-user/${email}`);
+      await axios.delete(`https://wms-wrnh.onrender.com/delete-user/${email}`);
 
       fetchUsers();
 
@@ -132,7 +132,7 @@ function Administrator() {
 
   const deleteBook = async (id) => {
     try {
-      await axios.delete(`http://127.0.0.1:5000/delete-book/${id}`);
+      await axios.delete(`https://wms-wrnh.onrender.com/delete-book/${id}`);
 
       fetchBooks();
 

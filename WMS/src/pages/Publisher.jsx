@@ -233,7 +233,7 @@ const [bookData, setBookData] = useState({
 
   const fetchBooks = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:5000/books");
+      const res = await axios.get("https://wms-wrnh.onrender.com/books");
 
       setBooks(res.data);
     } catch (error) {
@@ -363,7 +363,7 @@ const [bookData, setBookData] = useState({
 
       if (editingBookId !== null) {
         res = await axios.put(
-          `http://127.0.0.1:5000/update-book/${editingBookId}`,
+          `https://wms-wrnh.onrender.com/update-book/${editingBookId}`,
 
           sendData,
         );
@@ -374,7 +374,7 @@ const [bookData, setBookData] = useState({
       // =====================================
       else {
         res = await axios.post(
-          "http://127.0.0.1:5000/upload-book",
+          "https://wms-wrnh.onrender.com/upload-book",
 
           sendData,
         );
@@ -509,7 +509,7 @@ const [bookData, setBookData] = useState({
 
   const deleteBook = async (id) => {
     try {
-      await axios.delete(`http://127.0.0.1:5000/delete-book/${id}`);
+      await axios.delete(`https://wms-wrnh.onrender.com/delete-book/${id}`);
 
       const updatedBooks = books.filter((book) => book.id !== id);
 
