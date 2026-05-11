@@ -1,0 +1,220 @@
+[
+    {
+        "id": 1,
+        "book_name": "Whispers of the Midnight Rain",
+        "publisher": "admin",
+        "publisher_email": "hema@gmail.com",
+        "chapters": [
+            {
+                "chapter_number": 1,
+                "chapter_title": "we",
+                "completed": true,
+                "content": "<p>scd</p>",
+                "sub_topic": "sdc"
+            },
+            {
+                "chapter_number": 2,
+                "chapter_title": "scd",
+                "completed": true,
+                "content": "<p>cd</p>",
+                "sub_topic": "sdc"
+            }
+        ],
+        "upload_date": "2026-05-08",
+        "deadline": "2026-05-14",
+        "status": "Published",
+        "delay": false,
+        "downloads": 5,
+        "last_download_time": "08-05-2026 04:47 PM",
+        "file": "example.pdf"
+    },
+    {
+        "id": 2,
+        "book_name": "The Odyssey",
+        "publisher": "Homer",
+        "publisher_email": "customer@gmail.com",
+        "chapters": [
+            {
+                "chapter_number": 1,
+                "chapter_title": "Book 1",
+                "sub_topic": " Athena Inspires Telemachus",
+                "content": "<p><strong>Book&nbsp;1:&nbsp;Athena&nbsp;Inspires&nbsp;Telemachus</strong>&nbsp;\u2013&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;gods&nbsp;meet&nbsp;and&nbsp;decide&nbsp;it&nbsp;is&nbsp;time&nbsp;for&nbsp;Odysseus&nbsp;to&nbsp;return,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while&nbsp;Athena&nbsp;visits&nbsp;Ithaca&nbsp;to&nbsp;encourage&nbsp;his&nbsp;son,&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telemachus,&nbsp;to&nbsp;confront&nbsp;the&nbsp;suitors.</p>",
+                "completed": true
+            }
+        ],
+        "upload_date": "2026-05-08",
+        "deadline": "2026-05-14",
+        "status": "Published",
+        "delay": false,
+        "downloads": 1,
+        "last_download_time": "08-05-2026 11:05 AM",
+        "file": "The odyssey.pdf"
+    },
+    {
+        "id": 4,
+        "book_name": "noval",
+        "publisher": "Arjun Dev",
+        "publisher_email": "publish@gmail.com",
+        "chapters": [
+            {
+                "chapter_number": 1,
+                "chapter_title": "ds",
+                "sub_topic": "ad",
+                "content": "<p>adad</p>",
+                "completed": true
+            }
+        ],
+        "upload_date": "2026-05-08",
+        "deadline": "2026-05-14",
+        "status": "Published",
+        "delay": false,
+        "downloads": 0,
+        "last_download_time": "",
+        "file": "noval.pdf"
+    },
+    {
+        "id": 5,
+        "book_name": "The Odyssey",
+        "publisher": "hema",
+        "publisher_email": "hema@gmail.com",
+        "chapters": [
+            {
+                "chapter_number": 1,
+                "chapter_title": "Chapter 1",
+                "sub_topic": "Topic 1",
+                "content": "\n            <h2>Chapter 1</h2>\n\n            <h3>Topic 1</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            },
+            {
+                "chapter_number": 2,
+                "chapter_title": "Chapter 1",
+                "sub_topic": ": Book 1  Athena Inspires Telemachus",
+                "content": "\n            <h2>Chapter 1</h2>\n\n            <h3>: Book 1  Athena Inspires Telemachus</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            }
+        ],
+        "upload_date": "2026-05-08",
+        "deadline": "2026-05-14",
+        "status": "Published",
+        "delay": false,
+        "downloads": 0,
+        "last_download_time": "",
+        "file": "The Odyssey.pdf"
+    },
+    {
+        "id": 6,
+        "book_name": "Sample Ebook (1)",
+        "publisher": "hema",
+        "publisher_email": "hema@gmail.com",
+        "chapters": [
+            {
+                "chapter_number": 1,
+                "chapter_title": "Chapter 1",
+                "sub_topic": "The Silent Journey  This is a sample ebook PDF for testing your upload book feature, reader page, and chapter preview UI.",
+                "content": "\n            <h2>Chapter 1</h2>\n\n            <h3>The Silent Journey  This is a sample ebook PDF for testing your upload book feature, reader page, and chapter preview UI.</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            },
+            {
+                "chapter_number": 2,
+                "chapter_title": "Chapter 1",
+                "sub_topic": ": The Beginning  Aarav walked through the rainy streets of Chennai while thinking about his future.",
+                "content": "\n            <h2>Chapter 1</h2>\n\n            <h3>: The Beginning  Aarav walked through the rainy streets of Chennai while thinking about his future.</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            },
+            {
+                "chapter_number": 3,
+                "chapter_title": "Chapter 2",
+                "sub_topic": ": The Discovery  Inside an old library, Aarav discovered a hidden diary containing forgotten stories.",
+                "content": "\n            <h2>Chapter 2</h2>\n\n            <h3>: The Discovery  Inside an old library, Aarav discovered a hidden diary containing forgotten stories.</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            },
+            {
+                "chapter_number": 4,
+                "chapter_title": "Chapter 3",
+                "sub_topic": ": The Journey  The journey became more dangerous as Aarav uncovered secrets connected to his family.",
+                "content": "\n            <h2>Chapter 3</h2>\n\n            <h3>: The Journey  The journey became more dangerous as Aarav uncovered secrets connected to his family.</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            }
+        ],
+        "upload_date": "2026-05-08",
+        "deadline": "2026-05-14",
+        "status": "Published",
+        "delay": false,
+        "downloads": 0,
+        "last_download_time": "",
+        "file": "sample_ebook (1).pdf"
+    },
+    {
+        "id": 7,
+        "book_name": "Whispers Of The Midnight Rain (10)",
+        "publisher": "hema",
+        "publisher_email": "hema@gmail.com",
+        "chapters": [
+            {
+                "chapter_number": 1,
+                "chapter_title": "Chapter 1",
+                "sub_topic": "Whispers of the Midnight Rain",
+                "content": "\n            <h2>Chapter 1</h2>\n\n            <h3>Whispers of the Midnight Rain</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            },
+            {
+                "chapter_number": 2,
+                "chapter_title": "Chapter 1",
+                "sub_topic": ": we  sdc",
+                "content": "\n            <h2>Chapter 1</h2>\n\n            <h3>: we  sdc</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            },
+            {
+                "chapter_number": 3,
+                "chapter_title": "Chapter 2",
+                "sub_topic": ": scd  sdc",
+                "content": "\n            <h2>Chapter 2</h2>\n\n            <h3>: scd  sdc</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            }
+        ],
+        "upload_date": "2026-05-08",
+        "deadline": "2026-05-14",
+        "status": "Published",
+        "delay": false,
+        "downloads": 0,
+        "last_download_time": "",
+        "file": "Whispers of the Midnight Rain (10).pdf"
+    },
+    {
+        "id": 8,
+        "book_name": "Whispers Of The Midnight Rain (9)",
+        "publisher": "hema",
+        "publisher_email": "hema@gmail.com",
+        "chapters": [
+            {
+                "chapter_number": 1,
+                "chapter_title": "Chapter 1",
+                "sub_topic": "Whispers of the Midnight Rain",
+                "content": "\n            <h2>Chapter 1</h2>\n\n            <h3>Whispers of the Midnight Rain</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            },
+            {
+                "chapter_number": 2,
+                "chapter_title": "Chapter 1",
+                "sub_topic": ": we  sdc",
+                "content": "\n            <h2>Chapter 1</h2>\n\n            <h3>: we  sdc</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            },
+            {
+                "chapter_number": 3,
+                "chapter_title": "Chapter 2",
+                "sub_topic": ": scd  sdc",
+                "content": "\n            <h2>Chapter 2</h2>\n\n            <h3>: scd  sdc</h3>\n\n            <p></p>\n          ",
+                "completed": true
+            }
+        ],
+        "cover_image": "blob:http://localhost:5173/85f49f8a-d0a0-4960-8841-e34de585f44e",
+        "upload_date": "2026-05-08",
+        "deadline": "2026-05-14",
+        "status": "Published",
+        "delay": false,
+        "downloads": 0,
+        "last_download_time": "",
+        "file": "Whispers of the Midnight Rain (9).pdf"
+    }
+]

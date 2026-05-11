@@ -1,0 +1,26 @@
+[
+    {
+        "name": "admin",
+        "email": "ss9061601@gmail.com",
+        "password": "1ew23",
+        "role": "Administrator"
+    },
+    {
+        "name": "welcome",
+        "email": "welcome@gmail.com",
+        "password": "welcome123",
+        "role": "Reader"
+    },
+    {
+        "name": "hema",
+        "email": "hema@gmail.com",
+        "password": "123",
+        "role": "Administrator"
+    },
+    {
+        "name": "selva ",
+        "email": "ss@gmail.com",
+        "password": "1",
+        "role": "Administrator"
+    }
+]

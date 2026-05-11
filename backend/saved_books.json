@@ -1,0 +1,39 @@
+[
+    {
+        "book_name": "Whispers Of The Midnight Rain (9)",
+        "chapters": [
+            {
+                "chapter_number": 1,
+                "chapter_title": "Chapter 1",
+                "completed": true,
+                "content": "\n            <h2>Chapter 1</h2>\n\n            <h3>Whispers of the Midnight Rain</h3>\n\n            <p></p>\n          ",
+                "sub_topic": "Whispers of the Midnight Rain"
+            },
+            {
+                "chapter_number": 2,
+                "chapter_title": "Chapter 1",
+                "completed": true,
+                "content": "\n            <h2>Chapter 1</h2>\n\n            <h3>: we  sdc</h3>\n\n            <p></p>\n          ",
+                "sub_topic": ": we  sdc"
+            },
+            {
+                "chapter_number": 3,
+                "chapter_title": "Chapter 2",
+                "completed": true,
+                "content": "\n            <h2>Chapter 2</h2>\n\n            <h3>: scd  sdc</h3>\n\n            <p></p>\n          ",
+                "sub_topic": ": scd  sdc"
+            }
+        ],
+        "cover_image": "blob:http://localhost:5173/85f49f8a-d0a0-4960-8841-e34de585f44e",
+        "deadline": "2026-05-14",
+        "delay": false,
+        "downloads": 0,
+        "file": "Whispers of the Midnight Rain (9).pdf",
+        "id": 8,
+        "last_download_time": "",
+        "publisher": "hema",
+        "publisher_email": "hema@gmail.com",
+        "status": "Published",
+        "upload_date": "2026-05-08"
+    }
+]
