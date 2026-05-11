@@ -5,7 +5,7 @@ import logo from "../assets/images.png";
 import { motion } from "framer-motion";
 import { Eye, EyeOff } from "lucide-react";
 
-function Signup() {
+function signup() {
   const navigate = useNavigate();
 
   const [showPassword, setShowPassword] = useState(false);
@@ -281,4 +281,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default signup;
